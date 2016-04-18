@@ -14,7 +14,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-    	//String webappDirLocation = "src/main/webapp/";
         String webappDirLocation = "WebContent/";
         Tomcat tomcat = new Tomcat();
 
@@ -26,10 +25,10 @@ public class Main {
         }
 
         tomcat.setPort(Integer.valueOf(webPort));
-        tomcat.setHostname("vote-no-restaurante");
+        //tomcat.setHostname("vote-no-restaurante");
         
         
-        StandardContext ctx = (StandardContext) tomcat.addWebapp("/vote-no-restaurante", new File(webappDirLocation).getAbsolutePath());
+        StandardContext ctx = (StandardContext) tomcat.addWebapp("/", new File(webappDirLocation).getAbsolutePath());
         
         System.out.println("configuring app with basedir: " + new File("./" + webappDirLocation).getAbsolutePath());
 
