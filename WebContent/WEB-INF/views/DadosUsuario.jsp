@@ -2,18 +2,14 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="resources/w3.css">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	
+	<meta charset="utf-8">
+	<meta name="description" content="resources/ChartNew.js" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="resources/w3.css">	
 	<title>Batalha de Restaurantes !</title>
 	
 	<style>
-		img {
-    		width: 100%;
-   	 		height: auto;
-		}
 		.button {
     		background-color: #ff6600;
     		border: none;

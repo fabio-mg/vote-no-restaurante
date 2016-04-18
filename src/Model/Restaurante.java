@@ -131,10 +131,10 @@ public class Restaurante {
 	//Metodo responsavel por sempre manter 5 restaurantes default cadastrados
 	public boolean persisteRestaurantesDefault() {
 		String[][] opcoes = { {"OutBack", "Descricao do OutBack", "www.outback.com.br", "imagem"}, 
-						      {"AppleBis", "Descricao do AppleBis", "www.applebis.com.br", "imagem"},
+						      {"Applebee's", "Descricao do AppleBis", "www.applebees.com.br", "imagem"},
 							  {"McDonalds", "Descricao do McDonalds", "www.mcdonalds.com.br", "imagem"},
-							  {"Habibs", "Descricao do Habibs", "www.habibs.com.br", "imagem"},
-							  {"Girafas", "Descricao do Girafas", "www.girafas.com.br", "imagem"} };
+							  {"Habib's", "Descricao do Habibs", "www.habibs.com.br", "imagem"},
+							  {"Giraffas", "Descricao do Girafas", "www.giraffas.com.br", "imagem"} };
 		Restaurante res;
 		try {
 			for (int idRes = 0; idRes < 5; idRes++) {

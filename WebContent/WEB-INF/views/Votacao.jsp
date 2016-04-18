@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
+<meta charset="utf-8">
+<meta name="description" content="resources/ChartNew.js" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="resources/w3.css">
+
+<title>Batalha de Restaurantes !</title>
+
 <head>
 	<title>Batalha de Restaurantes !</title>
 	
 	<style>
-		img {
-    		width: 100%;
-   	 		height: auto;
-		}
 		.button {
     		background-color: #ff6600;
     		border: none;
